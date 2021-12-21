@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.name{
+    color: blue;
+}
+.navbar-brand{
+  margin-right: 250px;
+}
+.collapsetop{
+    margin-right: 120px;
+}
+.collapsetop li{
+    margin: 0 15px;
+    font-weight: 700;
+}
+.fa-user ,
+.fa-sign-in-alt{
+    color: blue;
+}
+.login{
+    border-right: 1px solid rgb(212, 240, 240);
+}
+.collapsetop li a{
+    text-decoration: none;
+    color: black;
+    line-height: 60px;
+
+}
+.collapsetop li:hover{
+    border-bottom: 3px solid blue;
+}
+.collapsetop li a:hover{
+    color: blue;
+}
+.collapsebot li a{
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 15px;
+    color: black;
+    line-height: 30px;
+}
+.collapsebot li button{
+    font-weight: 700;
+}
+.collapsebot li:hover{
+    border-bottom: 3px solid blue;
+}
+.collapsebot li a:hover{
+    color: blue;
+}
+.banner_image img{
+    height: 600px;
+    width: 100%;
+    
+    
+}
+.banner{
+    position: relative;
+}
+.banner_text{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 35%;
+}
+.banner_text .slogan{
+    text-align: center;
+}
+.banner_text .topic{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.search{
+    position: absolute;
+}
