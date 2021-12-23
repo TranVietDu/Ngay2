@@ -28,21 +28,21 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse collapsetop navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="" aria-current="page" href="#">Home</a>
+        <ul class="navbar-nav">
+          <li>
+            <a aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="" aria-current="page" href="#">Catelogies</a>
+          <li>
+            <a aria-current="page" href="#">Catelogies</a>
           </li>
-          <li class="nav-item">
-            <a class="" aria-current="page" href="#">Listings</a>
+          <li>
+            <a aria-current="page" href="#">Listings</a>
           </li>
-          <li class="nav-item">
-            <a class="" aria-current="page" href="#">Pages</a>
+          <li>
+            <a aria-current="page" href="#">Pages</a>
           </li>
-          <li class="nav-item">
-            <a class="" aria-current="page" href="#">Blog</a>
+          <li>
+            <a aria-current="page" href="#">Blog</a>
           </li>
         </ul>
       </div>
@@ -55,29 +55,614 @@
             <a class="" aria-current="page" href="#"><i class="fas fa-user"></i> Register</a>
           </li>
           <li class="nav-item">
-            <button class="btn btn-primary">Post An Ad</button>
+            <button class="btn">Post An Ad</button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-<!-- banner -->
-<div class="banner">
-    <div class="banner_image">
-      <img src="./assets/image/banner2.jpg" alt="">
-    </div>
+  <!-- banner -->
+  <div class="banner">
     <div class="banner_text">
       <h1 class="topic">Welcome to ClassiGrids</h1>
-      <p class="slogan">
-        Buy and Sell Everything From Used Cars To Moblile Phone And <br> Computers Or Search For Oroperty, Job And More.
-      </p>
+      <p class="slogan">Buy and Sell Everything From Used Cars To Moblile Phone And <br> Computers Or Search For
+        Oroperty, Job And More.</p>
     </div>
     <div class="banner_search">
-      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 productkey ">
+            <form class="example" action="action_page.php">
+              <input type="text" placeholder="Product keyword" name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+          <div class="col-md-3 col-sm-6 catelogykey">
+           <select name="" id="">
+             <option value="">Catelogies</option>
+           </select>
+          </div>
+          <div class="col-md-3 col-sm-6 locationkey">
+            <select name="" id="">
+              <option value="">Locations</option>
+            </select>
+          </div>
+          <div class="col-md-2 col-sm-6  search">
+            <button class="btn"><i class="fas fa-search"></i> Search</button>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+    <div class="banner_icon container">
+      <div class="row">
+        <div class="col-md-2">
+          <i class="fas fa-car icon"></i>
+          <div class="vehicon">Vehicle</div>
+          <div class="">
+            <span class="number">35</span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <i class="fas fa-laptop icon"></i>
+          <div class="vehicon">Electronics</div>
+          <div>
+            <span class="number">22</span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <i class="far fa-heart icon"></i>
+          <div class="vehicon">Matrymory</div>
+          <div>
+            <span class="number">35</span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <i class="fas fa-couch icon"></i>
+          <div class="vehicon">Funitures</div>
+          <div>
+            <span class="number">45</span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <i class="fas fa-briefcase icon"></i>
+          <div class="vehicon">Jobs</div>
+          <div>
+            <span class="number">80</span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <i class="fas fa-home icon"></i>
+          <div class="vehicon">Real Estate</div>
+          <div>
+            <span class="number">35</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Lastproduct -->
+  <div class="lasproduct">
+    <div class="container">
+      <div class="lasproduct_text">
+        <h2 class="lasproduct_text1">Latest Products</h2>
+        <p class="lasproduct_text2">There are many variations of passages of Lorem Ipsum available,but the majorrity
+          have suffered <br>alteration in some form.</p>
+      </div>
+      <div class="lastproduct_product">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image">
+              <img src="./assets/image/product1.jpg" alt="">
+              <div class="user">
+                <img src="./assets/image/userpro.jpg" alt="">
+                <p class="nameus">Ronaldo</p>
+              </div>
+              <div class="forsale">
+                <button class="btn btn-primary">For Sale</button>
+              </div>
+            </div>
+            <div class="title">
+              <p class="catelo">Mobile Phones</p>
+              <h5 class="nametitle">Apple Iphone X</h5>
+              <p class="update">Last update: 1 hours ago</p>
+              <div class="iconstar">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                (20)
+              </div>
+              <div class="timeaddress">
+                <div class="row">
+                  <div class="col-md-6">
+                    <i class="fas fa-map-marker-alt"></i> New York, US
+                  </div>
+                  <div class="col-md-6">
+                    <i class="far fa-clock"></i> Feb 8, 2023
+                  </div>
+                </div>
+              </div>
+              <div class="price">
+                <div class="row">
+                  <div class="col-md-6">Start From: <span class="proprice">$1000.00</span></div>
+                  <div class="col-md-6 heart"><i class="far fa-heart"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image">
+              <img src="./assets/image/product1.jpg" alt="">
+              <div class="user">
+                <img src="./assets/image/userpro.jpg" alt="">
+                <p class="nameus">Ronaldo</p>
+              </div>
+              <div class="forsale">
+                <button class="btn btn-primary">For Sale</button>
+              </div>
+            </div>
+            <div class="title">
+              <p class="catelo">Mobile Phones</p>
+              <h5 class="nametitle">Apple Iphone X</h5>
+              <p class="update">Last update: 1 hours ago</p>
+              <div class="iconstar">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                (20)
+              </div>
+              <div class="timeaddress">
+                <div class="row">
+                  <div class="col-md-6">
+                    <i class="fas fa-map-marker-alt"></i> New York, US
+                  </div>
+                  <div class="col-md-6">
+                    <i class="far fa-clock"></i> Feb 8, 2023
+                  </div>
+                </div>
+              </div>
+              <div class="price">
+                <div class="row">
+                  <div class="col-md-6">Start From: <span class="proprice">$1000.00</span></div>
+                  <div class="col-md-6 heart"><i class="far fa-heart"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image">
+              <img src="./assets/image/product1.jpg" alt="">
+              <div class="user">
+                <img src="./assets/image/userpro.jpg" alt="">
+                <p class="nameus">Ronaldo</p>
+              </div>
+              <div class="forsale">
+                <button class="btn btn-primary">For Sale</button>
+              </div>
+              <div class="feature">
+                <button class="btn btn-primary"><i class="fas fa-bolt"></i>Featured</button>
+              </div>
+            </div>
+            <div class="title">
+              <p class="catelo">Mobile Phones</p>
+              <h5 class="nametitle">Apple Iphone X</h5>
+              <p class="update">Last update: 1 hours ago</p>
+              <div class="iconstar">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                (20)
+              </div>
+              <div class="timeaddress">
+                <div class="row">
+                  <div class="col-md-6">
+                    <i class="fas fa-map-marker-alt"></i> New York, US
+                  </div>
+                  <div class="col-md-6">
+                    <i class="far fa-clock"></i> Feb 8, 2023
+                  </div>
+                </div>
+              </div>
+              <div class="price">
+                <div class="row">
+                  <div class="col-md-6">Start From: <span class="proprice">$1000.00</span></div>
+                  <div class="col-md-6 heart"><i class="far fa-heart"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image">
+              <img src="./assets/image/product1.jpg" alt="">
+              <div class="user">
+                <img src="./assets/image/userpro.jpg" alt="">
+                <p class="nameus">Ronaldo</p>
+              </div>
+              <div class="forsale">
+                <button class="btn btn-primary">For Sale</button>
+              </div>
+            </div>
+            <div class="title">
+              <p class="catelo">Mobile Phones</p>
+              <h5 class="nametitle">Apple Iphone X</h5>
+              <p class="update">Last update: 1 hours ago</p>
+              <div class="iconstar">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                (20)
+              </div>
+              <div class="timeaddress">
+                <div class="row">
+                  <div class="col-md-6">
+                    <i class="fas fa-map-marker-alt"></i> New York, US
+                  </div>
+                  <div class="col-md-6">
+                    <i class="far fa-clock"></i> Feb 8, 2023
+                  </div>
+                </div>
+              </div>
+              <div class="price">
+                <div class="row">
+                  <div class="col-md-6">Start From: <span class="proprice">$1000.00</span></div>
+                  <div class="col-md-6 heart"><i class="far fa-heart"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image">
+              <img src="./assets/image/product1.jpg" alt="">
+              <div class="user">
+                <img src="./assets/image/userpro.jpg" alt="">
+                <p class="nameus">Ronaldo</p>
+              </div>
+              <div class="forsale">
+                <button class="btn btn-primary">For Sale</button>
+              </div>
+            </div>
+            <div class="title">
+              <p class="catelo">Mobile Phones</p>
+              <h5 class="nametitle">Apple Iphone X</h5>
+              <p class="update">Last update: 1 hours ago</p>
+              <div class="iconstar">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                (20)
+              </div>
+              <div class="timeaddress">
+                <div class="row">
+                  <div class="col-md-6">
+                    <i class="fas fa-map-marker-alt"></i> New York, US
+                  </div>
+                  <div class="col-md-6">
+                    <i class="far fa-clock"></i> Feb 8, 2023
+                  </div>
+                </div>
+              </div>
+              <div class="price">
+                <div class="row">
+                  <div class="col-md-6">Start From: <span class="proprice">$1000.00</span></div>
+                  <div class="col-md-6 heart"><i class="far fa-heart"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image">
+              <img src="./assets/image/product1.jpg" alt="">
+              <div class="user">
+                <img src="./assets/image/userpro.jpg" alt="">
+                <p class="nameus">Ronaldo</p>
+              </div>
+              <div class="forsale">
+                <button class="btn btn-primary">For Sale</button>
+              </div>
+            </div>
+            <div class="title">
+              <p class="catelo">Mobile Phones</p>
+              <h5 class="nametitle">Apple Iphone X</h5>
+              <p class="update">Last update: 1 hours ago</p>
+              <div class="iconstar">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                (20)
+              </div>
+              <div class="timeaddress">
+                <div class="row">
+                  <div class="col-md-6">
+                    <i class="fas fa-map-marker-alt"></i> New York, US
+                  </div>
+                  <div class="col-md-6">
+                    <i class="far fa-clock"></i> Feb 8, 2023
+                  </div>
+                </div>
+              </div>
+              <div class="price">
+                <div class="row">
+                  <div class="col-md-6">Start From: <span class="proprice">$1000.00</span></div>
+                  <div class="col-md-6 heart"><i class="far fa-heart"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="whychoose">
+    <div class="container">
+      <div class="whychoose_text">
+        <h2 class="whychoose_text1">Why Choose Us</h2>
+        <p class="whychoose_text2">There are many variations of passages of Lorem Ipsum available,but the majorrity have
+          suffered <br>alteration in some form.</p>
+      </div>
+      <div class="whychoose_content">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="content">
+              <i class="fas fa-save"></i>
+              <h5 class="text">Fully Documented</h5>
+              <p>Buy anh sell everything from used case to <br>moblie phones and computer or search for <br>property</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <i class="fas fa-leaf"></i>
+              <h5 class="text">Clean & Modern Design</h5>
+              <p>Buy anh sell everything from used cá to <br>moblie phones and computer or search for <br>property</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <i class="fas fa-cog"></i>
+              <h5 class="text">Completely Customizable</h5>
+              <p>Buy anh sell everything from used cá to <br>moblie phones and computer or search for <br>property</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <i class="far fa-thumbs-up"></i>
+              <h5 class="text">User Friendly</h5>
+              <p>Buy anh sell everything from used cá to <br>moblie phones and computer or search for <br>property</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <i class="fas fa-book"></i>
+              <h5 class="text">Awesome Layout</h5>
+              <p>Buy anh sell everything from used cá to <br>moblie phones and computer or search for <br>property</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <i class="fas fa-laptop"></i>
+              <h5 class="text">Fully Responsive</h5>
+              <p>Buy anh sell everything from used cá to <br>moblie phones and computer or search for <br>property</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="background">
+    <div class="background_text">
+      <h3>Currently You are using free <br>Life version of ClassiGrids</h3>
+      <p>Please,purcharse full version of the template toget all page, <br> features and commercial licence</p>
+      <button class="btn btn-primary">Purcharse Now</button>
+    </div>
+  </div>
+  <div class="pricingplan container">
+    <div class="pricingplan_text">
+      <h2 class="text">Pricing Plan</h2>
+      <p>There are many variations of passages of Lorem Ipsum available,but the majorrity have
+        suffered <br>alteration in some form.</p>
+    </div>
+    <div class="pricingplan_content">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="content">
+            <h1>$00<span class="small">/Month</span></h1>
+            <h4 class="pri">FREE</h4>
+            <p>One Listing</p>
+            <p>Contac Display</p>
+            <p>Image Gallery</p>
+            <p>30 Days Availabilly</p>
+            <p>Non-Featured</p>
+            <p>Bussiness Tagline</p>
+            <button class="btn btn-primary">Select Plan</button>
+          </div>
 
+        </div>
+        <div class="col-md-4">
+          <div class="content">
+            <h1>$59<span class="small">/Month</span></h1>
+            <h4 class="pri">STANDARD</h4>
+            <p>One Listing</p>
+            <p>Contac Display</p>
+            <p>Image Gallery</p>
+            <p>30 Days Availabilly</p>
+            <p>Non-Featured</p>
+            <p>Bussiness Tagline</p>
+            <button class="btn btn-primary">Select Plan</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content">
+            <h1>$99<span class="small">/Month</span></h1>
+            <h4 class="pri">PREMIUM</h4>
+            <p>One Listing</p>
+            <p>Contac Display</p>
+            <p>Image Gallery</p>
+            <p>30 Days Availabilly</p>
+            <p>Non-Featured</p>
+            <p>Bussiness Tagline</p>
+            <button class="btn btn-primary">Select Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="itwork">
+    <div class="container">
+      <div class="itwork_text">
+        <h2 class="text">How It Works</h2>
+        <p>There are many variations of passages of Lorem Ipsum available,but the majorrity have
+          suffered <br>alteration in some form.</p>
+      </div>
+      <div class="itwork_content">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="content">
+              <div class="num"><small class="number">01</small></div>
+              <h5 class="text1">Create Account</h5>
+              <p>Lorem ipsum doclor sit amet constur adipising sed do eusmod tempor incididunt labore.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <div class="num"><small class="number">02</small></div>
+              <h5 class="text1">Post Your Ads</h5>
+              <p>Lorem ipsum doclor sit amet constur adipising sed do eusmod tempor incididunt labore.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              <div class="num"><small class="number">03</small></div>
+              <h5 class="text1">Sell Your Item</h5>
+              <p>Lorem ipsum doclor sit amet constur adipising sed do eusmod tempor incididunt labore.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="newletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 bell">
+          <div class="iconchu">
+            <i class="far fa-bell"></i>
+          </div>
+          <div class="text">
+            <h4>New Letters</h4>
+            <p>We don't send spam so don't worry</p>
+          </div>
+        </div>
+        <div class="col-md-6 search">
+          <div class="search">
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-2">
+                <div class="input-group">
+                  <input type="text" class="form-control" name="x" placeholder="Your email address">
+                  <span class="input-group-btn">
+                    <button class=" btn-default" type="button">Subscribe</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_content">
+        <div class="footer_item footer_item1">
+          <h5>Mobile Apps</h5>
+          <div class="chplay play">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="icons"><i class="fab fa-google-play"></i></div>
+              </div>
+              <div class="col-md-8">
+                <div class="tex">
+                  <small>Get in On</small>
+                  <p>Google Play</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="chplay">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="icons"><i class="fab fa-apple"></i></div>
+              </div>
+              <div class="col-md-8">
+                <div class="tex">
+                  <small>Get in On</small>
+                  <p>App Store</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_item footer_item2">
+          <h5>Locations</h5>
+          <div class="text">
+            <p>Chicago</p>
+            <p>New York City</p>
+            <p>San Francisco</p>
+            <p>Washington</p>
+            <p>Boston</p>
+          </div>
+        </div>
+        <div class="footer_item footer_item3">
+          <div class="text">
+            <p>Los Angeles</p>
+            <p>Seaflle</p>
+            <p>Las Vegas</p>
+            <p>San Diago</p>
+          </div>
 
+        </div>
+        <div class="footer_item footer_item4">
+          <h5>Quick Links</h5>
+          <div class="text">
+            <p>About Us</p>
+            <p>How It's Work</p>
+            <p>Login</p>
+            <p>Singup</p>
+            <p>Help & Support</p>
+          </div>
+        </div>
+          <div class="footer_item footer_item5">
+            <h5>Contact</h5>
+            <div class="text">
+              <p>23 New Design Str, Lorem Upsum 10 <br> Hundson York, SUSA</p>
+              <p>Tel. +(123) 1800-567-8990</p>
+              <p>Mail. support@classigrids.com</p>
+            </div>
+          </div>
+      </div>
+      <div class="footer_content1">
+          <p>Terms of use - Privacy Policy - Advanced Search - Site Map - Information</p>
+          <p>Designed and Developed by GrayGrids</p>
+          <ul class="social">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-youtube"></i></li>
+            <li><i class="fab fa-invision"></i></li>
+          </ul>
+      </div>
+  </footer>
 </body>
 
 </html>
+<!-- Welcome to ClassiGrids -->
+<!-- Buy and Sell Everything From Used Cars To Moblile Phone And <br> Computers Or Search For Oroperty, Job And More. -->
