@@ -4,14 +4,17 @@
     box-sizing: border-box;
 
 }
-
 body {
-    background-color: aliceblue;
+    background-color: #F9F9F9;
 }
 .btn{
-    background-color: blue;
+    background-color: #5830df;
     color: white;
     font-weight: bold;
+}
+.btn:hover{
+    color: #5830df;
+    background-color: #F9F9F9;
 }
 h2{
     font-weight: bolder;
@@ -22,15 +25,18 @@ h2{
     height: 30px;
 }
 .fa-sign-in-alt,.fa-user{
-    color: blue;
+    color: #5830df;
 }
 .lore b{
     color: black;
     font-weight: bold;
     font-size: 17px;
 }
+.lore b:hover{
+    color: #5830df;
+}
 .name {
-    color: blue;
+    color: #5830df;
 }
 .navbar-brand {
     margin-right: 150px;
@@ -40,12 +46,12 @@ h2{
     line-height: 80px;
     padding: 0 15px;
 }
-.collapse li:hover{
-    color: blue;
-    border-bottom: blue 1px solid;
+.collapsetop li:hover{
+    color: #5830df;
+    border-bottom: #5830df 1px solid;
 }
 .collapse li a:hover{
-    color: blue;
+    color: #5830df;
 }
 .collapse li a{
     font-weight: bold;
@@ -70,17 +76,18 @@ h2{
 
 .topic::after {
     content: "";
-    padding-top: 10px;
-    border-bottom: 5px solid blue;
-    width: 50px;
+    border-bottom: 5px solid #5830df;
+    width: 60px;
     display: block;
     margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
 .slogan {
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .banner_search {
@@ -117,7 +124,8 @@ h2{
   }
   
   form.example button:hover {
-    background: #0b7dda;
+    background: #5830df;
+    color: white;
   }
   
   /* Clear floats */
@@ -127,6 +135,8 @@ h2{
     display: table;
   }
 .banner_search .catelogykey select{
+    font-weight: bold;
+    padding: 0 16px;
     height: 100%;
     width: 100%;
     border: 1px solid white;
@@ -139,6 +149,8 @@ h2{
     text-overflow: '';
 }
 .banner_search .locationkey select{
+    font-weight: bold;
+    padding: 0 16px;
     height: 100%;
     width: 100%;
     border: 1px solid white;
@@ -171,7 +183,7 @@ h2{
 
 .banner_icon .icon {
     font-size: 30px;
-    color: blue;
+    color: #5830df;
 }
 
 .banner_icon {
@@ -183,27 +195,30 @@ h2{
 }
 
 .banner_icon .number {
-    background-color: rgb(219, 230, 230);
+    background-color: #F9F9F9;
     border-radius: 5px;
-    padding: 0 5px;
+    padding: 0 6px;
+    border: 1px solid #eee8e8;
 }
 
 /* lat product */
 .lasproduct {
     margin-top: 150px;
     height: auto;
-    background-color: aliceblue;
+    background-color: #F9F9F9;
     text-align: center;
     padding-bottom: 70px;
 }
-
+.lasproduct .nametitle{
+    font-weight: bold;
+}
 .lasproduct .lasproduct_text1::after {
     content: "";
-    padding-top: 10px;
-    border-bottom: 5px solid blue;
-    width: 50px;
+    border-bottom: 5px solid #5830df;
+    width: 60px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 
 .lastproduct_product {
@@ -217,7 +232,7 @@ h2{
 }
 .nameus{
     position: absolute;
-    bottom: 1%;
+    top: 20%;
     left: 99%;
     color: white;
     margin-left: 2px;
@@ -247,7 +262,6 @@ h2{
 
 .lastproduct_product .user {
     position: absolute;
-    
     bottom: 10%;
     left: 5%;
 }
@@ -269,7 +283,7 @@ h2{
 }
 
 .title i {
-    color: blue;
+    color: #5830df;
 }
 
 .timeaddress {
@@ -283,7 +297,7 @@ h2{
 
 .proprice {
     font-weight: 900;
-    color: blue;
+    color: #5830df;
 }
 .heart{
     text-align: right
@@ -306,11 +320,11 @@ h2{
 }
 .whychoose .whychoose_text1::after {
     content: "";
-    padding-top: 10px;
-    border-bottom: 5px solid blue;
-    width: 50px;
+    border-bottom: 5px solid #5830df;
+    width: 60px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 .whychoose_content{
     margin-top: 100px;
@@ -318,12 +332,12 @@ h2{
 .whychoose_content .content{
     padding: 40px 0;
     height: auto;
-    background-color: aliceblue;
+    background-color: #F9F9F9;
     border-radius: 5px;
     
 }
 .whychoose_content i{
-    background-color: blue;
+    background-color: #5830df;
     color: white;
     padding: 20px;
     border-radius: 50%;
@@ -346,7 +360,9 @@ h2{
     text-align: center;
     color: white;
 }
-
+.background p{
+    margin: 20px 0;
+}
 .pricingplan{
     padding-bottom: 100px;
 }
@@ -356,16 +372,16 @@ h2{
 }
 .pricingplan .text::after {
     content: "";
-    padding-top: 10px;
-    border-bottom: 5px solid blue;
-    width: 50px;
+    border-bottom: 5px solid #5830df;
+    width: 60px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 .pricingplan_content .content{
     padding: 30px 30px;
-    background-image: url(../image/pricing.png);
-    height: 500px;
+    background-image: url(../image/du.png);
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
@@ -378,7 +394,7 @@ h2{
     color: white;
 }
 .pricingplan_content .pri{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     letter-spacing: 5px;
 }
 .pricingplan_content p{
@@ -395,11 +411,11 @@ h2{
 }
 .itwork .text::after {
     content: "";
-    padding-top: 10px;
-    border-bottom: 5px solid blue;
-    width: 50px;
+    border-bottom: 5px solid #5830df;
+    width: 60px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 .itwork_content .content{
     text-align: center;
@@ -410,7 +426,7 @@ h2{
 .itwork_content .number{
     font-size: 30px;
     font-weight: 600;
-    background-color: blue;
+    background-color: #5830df;
     padding: 15px 20px;
     border-radius: 50%;
     color: white;
@@ -428,14 +444,15 @@ h2{
 }
 .newletter{
     height: auto;
-    background-image: url(../image/bg.jpg);
-    background-size: cover;
+    background: #5830df;
+    /* background-image: url(../image/bg.jpg); */
+    /* background-size: cover; */
     padding: 100px;
 }
 .newletter i{
     padding: 15px 20px;
     background-color: white;
-    color: blue;
+    color: #5830df;
     border-radius: 50%;
     font-size: 30px;
 }
@@ -468,7 +485,7 @@ h2{
 }
 .newletter .search button{
     background-color: white;
-    color: blue;
+    color: #5830df;
     font-weight: bold;
     height: 50px;
     border: 2px white solid;
@@ -489,7 +506,12 @@ h2{
     border-bottom: 1px solid rgb(245, 248, 250);
 }
 .footer .footer_content i{
-    font-size: 40px
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer p{
+    color: rgb(192, 206, 206);
 }
 .footer .footer_item{
     height: auto;
@@ -533,6 +555,15 @@ h2{
     text-align: center;
     padding-top: 40px;
     color: white;
+}
+.footer .top{
+    float: right;
+}
+.footer .top i{
+    padding: 10px;
+    background-color: #5830df;
+    color: white;
+    border-radius: 5px;
 }
 .social li{
     display: inline-block;
