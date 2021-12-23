@@ -11,6 +11,7 @@ body {
 .btn{
     background-color: blue;
     color: white;
+    font-weight: bold;
 }
 h2{
     font-weight: bolder;
@@ -20,66 +21,36 @@ h2{
     width: 30px;
     height: 30px;
 }
-
+.fa-sign-in-alt,.fa-user{
+    color: blue;
+}
+.lore b{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
 .name {
     color: blue;
 }
-
 .navbar-brand {
-    margin-right: 250px;
+    margin-right: 150px;
+    font-size: 25px;
 }
-
-.collapsetop {
-    margin-right: 120px;
+.collapse li{
+    line-height: 80px;
+    padding: 0 15px;
 }
-
-.collapsetop li {
-    margin: 0 15px;
-    font-weight: 700;
+.collapse li:hover{
+    color: blue;
+    border-bottom: blue 1px solid;
 }
-
-.fa-user,
-.fa-sign-in-alt {
+.collapse li a:hover{
     color: blue;
 }
-
-.login {
-    border-right: 1px solid rgb(212, 240, 240);
-}
-
-.collapsetop li a {
+.collapse li a{
+    font-weight: bold;
     text-decoration: none;
     color: black;
-    line-height: 60px;
-
-}
-
-.collapsetop li:hover {
-    border-bottom: 1px solid blue;
-}
-
-.collapsetop li a:hover {
-    color: blue;
-}
-
-.collapsebot li a {
-    text-decoration: none;
-    font-weight: 700;
-    margin: 0 15px;
-    color: black;
-    line-height: 30px;
-}
-
-.collapsebot li button {
-    font-weight: 700;
-}
-
-.collapsebot li:hover {
-    border-bottom: 1px solid blue;
-}
-
-.collapsebot li a:hover {
-    color: blue;
 }
 
 /* banner */
@@ -246,7 +217,7 @@ h2{
 }
 .nameus{
     position: absolute;
-    top: 30%;
+    bottom: 1%;
     left: 99%;
     color: white;
     margin-left: 2px;
@@ -254,13 +225,13 @@ h2{
 }
 .forsale{
     position: absolute;
-    top: 80%;
-    left: 75%;
+    bottom: 10%;
+    right: 5%;
 }
 .feature{
     position: absolute;
     top: 10%;
-    left: 71%;
+    right: 5%;
 }
 .lastproduct_product .image img {
     width: 100%;
@@ -276,7 +247,8 @@ h2{
 
 .lastproduct_product .user {
     position: absolute;
-    top: 80%;
+    
+    bottom: 10%;
     left: 5%;
 }
 
@@ -575,21 +547,37 @@ h2{
 }
 /*Ipad ngang(1024 x 768)*/
 @media screen and (max-width: 1024px){
+    
 }
 /*Ipad dọc(768 x 1024)*/
 @media screen and (max-width: 768px){
     .lasproduct {
-        margin-top: 700px;
+        margin-top: 800px;
     } 
     .lasproduct .col-sm-6{
         margin-top: 20px;
     }
+    .locationkey,.search{
+        margin-top: 10px;
+    }
+    .banner_icon .col-md-2{
+        margin-top: 20px;
+    }
+    .pri{
+        margin-top: 50px;
+    }
 }
 /*Tablet nhỏ(480 x 640)*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 575px){
     .lasproduct {
-        margin-top: 600px;
+        margin-top: 900px;
     } 
+    .lasproduct .col-sm-6{
+        margin-top: 20px;
+    }
+    .locationkey,.search,.catelogykey{
+        margin-top: 20px;
+    }
 }
 /*Iphone(480 x 640)*/
 @media screen and (max-width: 320px){
