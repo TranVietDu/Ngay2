@@ -110,6 +110,7 @@ h2{
   }
   /* Style the submit button */
   form.example button {
+    height: 100%;
     float: left;
     width: 20%;
     padding: 10px;
@@ -135,6 +136,7 @@ h2{
     display: table;
   }
 .banner_search .catelogykey select{
+    cursor: pointer;
     font-weight: bold;
     padding: 0 16px;
     height: 100%;
@@ -149,6 +151,7 @@ h2{
     text-overflow: '';
 }
 .banner_search .locationkey select{
+    cursor: pointer;
     font-weight: bold;
     padding: 0 16px;
     height: 100%;
@@ -306,6 +309,7 @@ h2{
     padding: 6px;
     border: 1px solid rgb(232, 225, 233);
     border-radius: 50%;
+    cursor: pointer;
     
 }
 /* Why choose us */
@@ -326,12 +330,15 @@ h2{
     margin: 20px auto;
     border-radius: 5px;
 }
+.whychoose_content {
+    display: flex;
+    align-items: stretch;
+}
 .whychoose_content{
     margin-top: 100px;
 }
 .whychoose_content .content{
-    padding: 40px 0;
-    height: auto;
+    padding: 40px ;
     background-color: #F9F9F9;
     border-radius: 5px;
     
@@ -444,9 +451,9 @@ h2{
 }
 .newletter{
     height: auto;
-    background: #5830df;
-    /* background-image: url(../image/bg.jpg); */
-    /* background-size: cover; */
+    background-image: url(../image/mls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px;
 }
 .newletter i{
@@ -477,7 +484,6 @@ h2{
     background-color: Transparent;
     background-repeat:no-repeat;
     border: 2px white solid;
-    cursor:pointer;
     overflow: hidden;    
 }
 .newletter .search input::placeholder{
@@ -522,6 +528,7 @@ h2{
     border-radius: 5px;
     padding: 5px;
     max-width: 200px;
+    cursor: pointer;
 }
 .play{
     margin-top: 50px;
@@ -564,6 +571,7 @@ h2{
     background-color: #5830df;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 .social li{
     display: inline-block;
@@ -571,6 +579,7 @@ h2{
     border: 1px solid rgb(247, 247, 250);
     border-radius: 50%;
     margin: 0 5px;
+    cursor: pointer;
 }
 .social{
     margin-top: 50px;
@@ -581,9 +590,9 @@ h2{
     
 }
 /*Ipad dọc(768 x 1024)*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .lasproduct {
-        margin-top: 800px;
+        margin-top: 300px;
     } 
     .lasproduct .col-sm-6{
         margin-top: 20px;
@@ -608,6 +617,12 @@ h2{
     }
     .locationkey,.search,.catelogykey{
         margin-top: 20px;
+    }
+    .banner_search .catelogykey select{
+        background: url(../image/cateloicon.png) 95% / 5% no-repeat white;
+    }
+    .banner_search .locationkey select{
+        background: url(../image/locationicon.png) 95% / 5% no-repeat white;
     }
 }
 /*Iphone(480 x 640)*/
